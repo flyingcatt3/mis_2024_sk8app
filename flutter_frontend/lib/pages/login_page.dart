@@ -34,7 +34,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 50),
 
               // welcome back, you've been missed!
-              Text(
+              const Text(
                 '好久不見!',
                 style: TextStyle(
                   color: Colors.white,
@@ -63,8 +63,8 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 10),
 
               // forgot password?
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -96,14 +96,14 @@ class LoginPage extends StatelessWidget {
                         color: Colors.grey[400],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                    const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 10.0),
                       child: Text(
                         '或',
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
-                    Expanded(
+                    const Expanded(
                       child: Divider(
                         thickness: 0.5,
                         color: Colors.white,
@@ -125,7 +125,7 @@ class LoginPage extends StatelessWidget {
                     
                     imagePath: 'https://cdn.discordapp.com/attachments/1132312462667026513/1163218799265325166/apple-logo.png?ex=653ec6ed&is=652c51ed&hm=b7f47f1a4e0c8514d316fa4ffe22a1160080e288182e2b2e279de260b671493f&'),
 
-                  SizedBox(width: 25),
+                  const SizedBox(width: 25),
 
                   // apple button
                   SquareTile(
@@ -137,15 +137,15 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 50),
 
               // not a member? register now
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     '還不是會員?',
                     style: TextStyle(color: Colors.white),
                   ),
-                  const SizedBox(width: 4),
-                  const Text(
+                  SizedBox(width: 4),
+                  Text(
                     '去註冊',
                     style: TextStyle(
                       color: Colors.blue,
